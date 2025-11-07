@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "690d1ffe478e45e527ca5bf8"
+  },
+  "firstName": "Levi",
+  "lastName": "Jost",
+  "email": "levi.martins@email.com",
+  "favoriteColor": "Cyan",
+  "birthday": {
+    "$date": "2000-07-02T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690d1ffe478e45e527ca5bf9"
+  },
+  "firstName": "Thais",
+  "lastName": "Maia",
+  "email": "tcmaia@email.com",
+  "favoriteColor": "Red",
+  "birthday": {
+    "$date": "1994-10-28T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690d1ffe478e45e527ca5bfa"
+  },
+  "firstName": "Willy",
+  "lastName": "Chonky",
+  "email": "FATCAT@heisbig.com",
+  "favoriteColor": "Yellow",
+  "birthday": {
+    "$date": "2024-10-27T00:00:00.000Z"
+  }
+}]

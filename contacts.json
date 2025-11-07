@@ -1,0 +1,23 @@
+[
+  {
+    "firstName": "Levi",
+    "lastName": "Jost",
+    "email": "levi.martins@email.com",
+    "favoriteColor": "Cyan",
+    "birthday": "2000-07-02"
+  },
+  {
+    "firstName": "Thais",
+    "lastName": "Maia",
+    "email": "tcmaia@email.com",
+    "favoriteColor": "Red",
+    "birthday": "1994-10-28"
+  },
+  {
+    "firstName": "Willy",
+    "lastName": "Chonky",
+    "email": "FATCAT@heisbig.com",
+    "favoriteColor": "Yellow",
+    "birthday": "2024-10-27"
+  }
+]

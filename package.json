@@ -1,0 +1,25 @@
+{
+  "name": "project_cse341",
+  "version": "1.0.0",
+  "description": "CSE341 project",
+  "homepage": "https://github.com/levijostmartins/Project_cse341#readme",
+  "bugs": {
+    "url": "https://github.com/levijostmartins/Project_cse341/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/levijostmartins/Project_cse341.git"
+  },
+  "license": "ISC",
+  "author": "Levi Jost Martins",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mongodb": "^7.0.0"
+  }
+}
