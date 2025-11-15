@@ -3,3 +3,35 @@ GET http://localhost:3000/users
 
 ### Get one user by ID
 GET http://localhost:3000/users/690d1ffe478e45e527ca5bf8
+
+### Create a new user
+POST http://localhost:3000/users
+Content-Type: application/json
+Accept: application/json
+
+{
+  "firstName": "test",
+  "lastName": "user",
+  "email": "test@email.com",
+  "favoriteColor": "blue",
+  "birthday": "01/01/2024"
+}
+
+
+### Update a user
+PUT http://localhost:3000/users/691872948d9f6aeb14abaf25
+Content-Type: application/json
+Accept: application/json
+
+{
+  "firstName": "smallcat",
+  "lastName": "small",
+  "email": "small@email",
+  "favoriteColor": "white",
+  "birthday": "25/12/2024"
+}
+
+
+### Delete a user
+DELETE http://localhost:3000/users/691872948d9f6aeb14abaf25
+Accept: application/json
