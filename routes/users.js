@@ -2,15 +2,39 @@ const express = require('express');
 const router = express.Router();
 const usersController = require('../controllers/users.js');
 
-router.get('/', usersController.getAll);
+// GET all users
+router.get('/',
+    // #swagger.tags = ['Users']
+    //#swagger.summary = 'Get all users'
+    usersController.getAll
+);
 
-router.get('/:id', usersController.getSingle);
+// GET single user
+router.get('/:id',
+    // #swagger.tags = ['Users']
+    //#swagger.summary = 'Get a single user by ID' 
+    usersController.getSingle
+);
 
-router.post('/', usersController.createUser);
+// POST create user
+router.post('/',
+    // #swagger.tags = ['Users'] 
+    // #swagger.summary = 'Create a new user' 
+    usersController.createUser
+);
 
-router.put('/:id', usersController.updateUser);
+// PUT update user
+router.put('/:id',
+    // #swagger.tags = ['Users'] 
+    // #swagger.summary = 'Update a user by ID' 
+    usersController.updateUser
+);
 
-router.delete('/:id', usersController.deleteUser);
-
+// DELETE user
+router.delete('/:id',
+    // #swagger.tags = ['Users'] 
+    // #swagger.summary = 'Delete a user by ID' 
+    usersController.deleteUser
+);
 
 module.exports = router;
